@@ -8,3 +8,12 @@ h1.jumbotron {
   color: rgb(158, 41, 41);
   outline: black;
 }
+
+#questionWarning {
+  color: red;
+  display: none;
+}
+
+#result {
+  display: none;
+}

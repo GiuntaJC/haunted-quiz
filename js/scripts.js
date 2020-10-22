@@ -8,8 +8,34 @@ $(document).ready(function() {
     let dani = 0;
     let peter = 0;
 
-    if(answer1 === "flora") {
-      flora++;
+    if(answer1 && answer2) {
+      $("#questionWarning").hide();
+      if(answer1 === "flora") {
+        flora++;
+      }
+      if(answer2 === "flora") {
+        flora++;
+      }
+      if(answer1 === "miles") {
+        miles++;
+      }
+      if(answer2 === "miles") {
+        miles++;
+      }
+      if(answer1 === "dani") {
+        dani++;
+      }
+      if(answer2 === "dani") {
+        dani++;
+      }
+      if(answer1 === "peter") {
+        peter++;
+      }
+      if(answer2 === "peter") {
+        peter++;
+      }
+    } else {
+      $("#questionWarning").show();
     }
 
     event.preventDefault();
