@@ -8,8 +8,8 @@
     <title>The Haunting of Bly Manor Quiz</title>
   </head>
   <body>
-    <h1 class="jumbotron">The Haunting of Bly Manor Personality Quiz</h1>
     <div class="container">
+      <h1 class="jumbotron">The Haunting of Bly Manor Personality Quiz</h1>
       <div class="card">
         <div class="card-body">
           <h3 class="text-center">Take the quiz below to find out which character in The Haunting of Bly Manor you are most like! Please read the questions and choose the best answer.</h3>
@@ -17,19 +17,65 @@
       </div>
       <br>
       <br>
-      <p>Question 1: You find a strange doll on the ground made of sticks and twine. What do you do?</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="character" value="flora">
-          You realize this is your doll, it must have been misplaced! 
-        </label>
-      </div>
-      
+      <form id="quiz">
+        <div class="form-group">
+          <p>Question 1: You find a strange doll on the ground made of sticks and twine. What do you do?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="flora">
+              You realize this is your doll, it must have been misplaced! 
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="miles">
+              You kick it to the side, figuring it must belong to someone.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="dani">
+              You pick it up, very concerned, and find out who it belongs to.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="peter">
+              You squash it with your foot and take a puff of your cigarette.
+            </label>
+          </div>
+          <br>
+          <br>
+        </div>
+        <div class="form-group">
+          <p>Question 2: How would you describe yourself?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="flora">
+              Inquisitive, kind, but kind of creepy.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="miles">
+              Kind, brave, but kind of an a-hole when you get posessed.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="dani">
+              Afraid most of the time, has lots of baggage, not afraid to "put your foot down".
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="peter">
+              Intelligent, like to rob rich people, would possess and then kill your girlfriend so you can be together forever.
+            </label>
+          </div>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
     </div>
-    
-
-
-
-
   </body>
 </html>
